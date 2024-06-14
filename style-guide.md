@@ -7,7 +7,13 @@ The designs were created to the following widths:
 - Mobile: 375px
 - Desktop: 1440px
 
-> 💡 These are just the design sizes. Ensure content is responsive and meets WCAG requirements by testing the full range of screen sizes from 320px to large screens.
+- Desktop container: 735px
+- Mobile container: 375px
+- Desktop image width: 655px / height: 300px
+- Mobile image width: 90px / height: 90px
+- Container border radius: 22px
+- Image border radius: 10px
+- HR: 1px solid
 
 ## Colors
 
@@ -29,7 +35,10 @@ The designs were created to the following widths:
 
 ### Body Copy
 
-- Font size (paragraph): 16px
+- Heading 1: 40px -> 35px / 400
+- Heading 2: 28px -> 20px / 400
+- Heading 3: 20px -> 20px / 600
+- Paragraph: 16px -> 14px / 400+700
 
 ### Fonts
 
@@ -38,5 +47,3 @@ The designs were created to the following widths:
 
 - Family: [Outfit](https://fonts.google.com/specimen/Outfit)
 - Weights: 400, 600, 700
-
-> 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma.

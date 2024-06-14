@@ -1,2 +1,39 @@
+/* young-serif-regular - latin */
 @font-face {
-}
+    font-display: swap; 
+    font-family: 'Young Serif';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../../assets/fonts/young-serif-v2-latin-regular.woff2') format('woff2'),
+    url('../../assets/fonts/YoungSerif-Regular.ttf') format('truetype'); 
+  }
+
+  /* outfit-regular - latin */
+@font-face {
+    font-display: swap; 
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../../assets/fonts/outfit-v11-latin-regular.woff2') format('woff2'),
+    url('../../assets/fonts/Outfit-Regular.ttf') format('truetype');  
+  }
+
+  /* outfit-600 - latin */
+  @font-face {
+    font-display: swap; 
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../../assets/fonts/outfit-v11-latin-600.woff2') format('woff2'),
+    url('../../assets/fonts/Outfit-Medium.ttf') format('truetype'); 
+  }
+
+  /* outfit-700 - latin */
+  @font-face {
+    font-display: swap; 
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../../assets/fonts/outfit-v11-latin-700.woff2') format('woff2'),
+    url('../../assets/fonts/Outfit-Bold.ttf') format('truetype');  
+  }

@@ -1,0 +1,73 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Outfit";
+  font-weight: 400;
+  background-color: var(--eggshell);
+}
+
+h1, h2, h3, p {
+  margin: 0;
+  color: var(--raspberry);
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+
+:root {
+  --nutmeg: hsl(14, 45%, 36%);
+  --raspberry: hsl(332, 51%, 32%);
+  --white: hsl(0, 0%, 100%);
+  --r-white: hsl(330, 100%, 98%);
+  --eggshell: hsl(30, 54%, 90%);
+  --grey: hsl(30, 18%, 87%);
+  --brown: hsl(30, 10%, 34%);
+  --charcoal: hsl(24, 5%, 18%);
+}
+
+/* young-serif-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Young Serif";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../assets/fonts/young-serif-v2-latin-regular.woff2") format("woff2"), url("../../assets/fonts/YoungSerif-Regular.ttf") format("truetype");
+}
+/* outfit-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../assets/fonts/outfit-v11-latin-regular.woff2") format("woff2"), url("../../assets/fonts/Outfit-Regular.ttf") format("truetype");
+}
+/* outfit-600 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../../assets/fonts/outfit-v11-latin-600.woff2") format("woff2"), url("../../assets/fonts/Outfit-Medium.ttf") format("truetype");
+}
+/* outfit-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../../assets/fonts/outfit-v11-latin-700.woff2") format("woff2"), url("../../assets/fonts/Outfit-Bold.ttf") format("truetype");
+}/*# sourceMappingURL=style.css.map */
