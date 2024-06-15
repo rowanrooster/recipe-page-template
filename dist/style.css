@@ -79,90 +79,86 @@ img {
   background-color: var(--white);
   border-radius: 22px;
 }
-#recipe-container .recipe-header .recipe-image {
+#recipe-container .header .image {
   width: 100%;
-  margin-bottom: 35px;
   border-radius: 10px;
 }
-#recipe-container .recipe-header h1 {
-  margin-bottom: 15px;
+#recipe-container .header h1 {
+  margin: 26px 0 18px;
   font-size: 2.5rem;
   font-family: "Young Serif", "Times New Roman", Times, serif;
   color: var(--charcoal);
 }
-#recipe-container .recipe-directions {
-  margin: 32px 0;
-}
-#recipe-container .recipe-directions .preperation-section {
+#recipe-container .preperation {
   padding: 22px 28px;
-  margin-bottom: 32px;
+  margin: 30px 0;
   border-radius: 10px;
   background-color: var(--r-white);
 }
-#recipe-container .recipe-directions .preperation-section h2 {
+#recipe-container .preperation h2 {
   font-size: 1.25rem;
   font-weight: 600;
   color: var(--raspberry);
 }
-#recipe-container .recipe-directions .preperation-section ul {
+#recipe-container .preperation ul {
   list-style: disc;
   margin-top: 10px;
   margin-left: 25px;
 }
-#recipe-container .recipe-directions .preperation-section ul li {
+#recipe-container .preperation ul li {
   margin: 8px 0;
   padding-left: 15px;
 }
-#recipe-container .recipe-directions .preperation-section ul li::marker {
+#recipe-container .preperation ul li::marker {
   color: var(--raspberry);
 }
-#recipe-container .recipe-directions .directions-section {
-  margin: 32px 0;
+#recipe-container .directions {
+  margin: 30px 0 35px;
 }
-#recipe-container .recipe-directions .directions-section h3 {
+#recipe-container .directions:last-of-type {
+  margin: 30px 0 0;
+}
+#recipe-container .directions h3 {
   margin-bottom: 15px;
   font-size: 1.75rem;
   font-family: "Young Serif", "Times New Roman", Times, serif;
   color: var(--nutmeg);
 }
-#recipe-container .recipe-directions .directions-section p {
+#recipe-container .directions p {
   margin-bottom: 15px;
 }
-#recipe-container .recipe-directions .directions-section ul {
+#recipe-container .directions ul {
   list-style: disc;
   margin-left: 25px;
   margin-top: 10px;
 }
-#recipe-container .recipe-directions .directions-section ul li {
+#recipe-container .directions ul li {
   margin: 8px 0;
   padding-left: 15px;
 }
-#recipe-container .recipe-directions .directions-section ul li::marker {
+#recipe-container .directions ul li::marker {
   color: var(--nutmeg);
 }
-#recipe-container .recipe-directions .directions-section ol {
+#recipe-container .directions ol {
   margin-left: -18px;
   margin-top: 10px;
 }
-#recipe-container .recipe-directions .directions-section ol li {
+#recipe-container .directions ol li {
   margin: 8px 0;
   padding-left: 15px;
 }
-#recipe-container .recipe-directions .directions-section ol li::marker {
+#recipe-container .directions ol li::marker {
   color: var(--nutmeg);
 }
-#recipe-container .recipe-directions .directions-section table {
+#recipe-container .directions table {
   width: 100%;
 }
-#recipe-container .recipe-directions .directions-section table tr {
-  padding: 10px 0 10px 10px;
+#recipe-container .directions table tr:last-of-type td {
+  border: none;
+}
+#recipe-container .directions table tr td {
+  padding: 10px 0 10px 30px;
   border-bottom: 1px solid var(--grey);
-}
-#recipe-container .recipe-directions .directions-section table tr:last-of-type {
-  border-bottom: none;
-}
-#recipe-container .recipe-directions .directions-section table strong {
-  color: var(--nutmeg);
 }
 #recipe-container hr {
   border: none;
