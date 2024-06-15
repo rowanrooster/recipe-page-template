@@ -79,7 +79,12 @@ img {
   background-color: var(--white);
   border-radius: 22px;
 }
-#recipe-container .header .image {
+#recipe-container .main-image {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+#recipe-container .main-image .image {
   width: 100%;
   border-radius: 10px;
 }
@@ -160,7 +165,33 @@ img {
   padding: 10px 0 10px 30px;
   border-bottom: 1px solid var(--grey);
 }
+#recipe-container .directions table tr strong {
+  color: var(--nutmeg);
+}
 #recipe-container hr {
   border: none;
   border-top: 1px solid var(--grey);
+}
+
+@media screen and (max-width: 550px) {
+  #recipe-container {
+    margin: 10px;
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 375px) {
+  #recipe-container {
+    margin: 0;
+    padding: 0 0 20px 0;
+    border-radius: 0;
+  }
+  #recipe-container .main-image .image {
+    border-radius: 0;
+  }
+  #recipe-container .header, #recipe-container .directions {
+    padding: 0 20px;
+  }
+  #recipe-container .preperation {
+    margin: 30px 20px;
+  }
 }/*# sourceMappingURL=style.css.map */

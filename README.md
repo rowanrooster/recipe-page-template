@@ -6,10 +6,9 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
 - Sass
 
 ### Links
 
-- [Frontend Mentor](https://github.com/rowanrooster/social-links-profile)
+- [Frontend Mentor](https://www.frontendmentor.io/profile/rowanrooster)
 - [Live Preview](https://rowanrooster.github.io/social-links-profile/)

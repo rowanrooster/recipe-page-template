@@ -9,13 +9,15 @@
 </head>
 <body>
   <article id="recipe-container" role="main">
-    <header class="header">
+    <figure class="main-image" role="region" aria-label="Recipe Photo">
       <img class="image" src="assets/images/image-omelette.jpeg" alt="Photo of an omelette">
+    </figure>
+    <header class="header">
       <h1>Simple Omelette Recipe</h1>
       <p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
       to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>  
     </header>
-    <section class="preperation">
+    <section class="preperation" role="region" aria-label="Preperation Time">
       <h2>Preparation time</h2>
       <ul>
         <li><strong>Total</strong>: Approximately 10 minutes</li>
@@ -23,7 +25,7 @@
         <li><strong>Cooking</strong>: 5 minutes</li>
       </ul>
     </section>
-    <section class="directions">
+    <section class="directions" role="region" aria-label="Ingredients">
       <h3>Ingredients</h3>
       <ul>
         <li>2-3 large eggs</li>
@@ -33,8 +35,8 @@
         <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
       </ul>
     </section>
-    <hr>
-    <section class="directions">
+    <hr aria-hidden="true">
+    <section class="directions" role="region" aria-label="Instructions">
       <h3>Instructions</h3>
       <ol>
         <li><strong>Beat the eggs</strong>: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
@@ -49,25 +51,25 @@
         <li><strong>Enjoy</strong>: Serve hot, with additional salt and pepper if needed.</li>
       </ol>
     </section>
-    <hr>
-    <section class="directions">
+    <hr aria-hidden="true">
+    <section class="directions" role="region" aria-label="Nutritional Information">
       <h3>Nutrition</h3>
       <p>The table below shows nutritional values per serving without the additional fillings.</p>
-      <table>
+      <table role="table" aria-label="Nutrients Table">
         <tbody>
-          <tr>
+          <tr role="row" aria-label="277 Calories">
             <td>Calories</td>
             <td><strong>277kcal</strong></td>
           </tr>
-          <tr>
+          <tr role="row" aria-label="0g Carbs">
             <td>Carbs</td>
             <td><strong>0g</strong></td>
           </tr>
-          <tr scope="row">
+          <tr role="row" aria-label="20g Protein">
             <td>Protein</td>
             <td><strong>20g</strong></td>
           </tr>
-          <tr class="no-border">
+          <tr role="row" aria-label="22g Fat">
             <td>Fat</td>
             <td><strong>22g</strong></td>
           </tr>
