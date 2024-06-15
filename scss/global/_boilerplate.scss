@@ -4,14 +4,16 @@
 
 body {
     margin: 0;
-    font-family: 'Outfit';
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: 'Outfit', Arial, Helvetica, sans-serif;
     font-weight: 400;
+    color: var(--brown);
     background-color: var(--eggshell);
 }
 
 h1, h2, h3, p {
     margin: 0;
-    color: var(--raspberry);
 }
 
 a, a:hover {
@@ -21,7 +23,6 @@ a, a:hover {
 ul {
     margin: 0;
     padding: 0;
-    list-style: none;
 }
 
 img {

@@ -10,7 +10,7 @@ The designs were created to the following widths:
 - Desktop container: 735px
 - Mobile container: 375px
 - Desktop image width: 655px / height: 300px
-- Mobile image width: 90px / height: 90px
+- Mobile image width: 100% / height: 170px
 - Container border radius: 22px
 - Image border radius: 10px
 - HR: 1px solid
@@ -35,10 +35,10 @@ The designs were created to the following widths:
 
 ### Body Copy
 
-- Heading 1: 40px -> 35px / 400
-- Heading 2: 28px -> 20px / 400
-- Heading 3: 20px -> 20px / 600
-- Paragraph: 16px -> 14px / 400+700
+- Heading 1: 40px - 2.5rem / 400
+- Heading 2: 28px - 1.75rem / 400
+- Heading 3: 20px - 1.25rem / 600
+- Paragraph: 16px - 1rem / 400+700
 
 ### Fonts
 
