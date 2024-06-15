@@ -11,4 +11,4 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Links
 
 - [Frontend Mentor](https://www.frontendmentor.io/profile/rowanrooster)
-- [Live Preview](https://rowanrooster.github.io/social-links-profile/)
+- [Live Preview](https://rowanrooster.github.io/recipe-page-template/)
